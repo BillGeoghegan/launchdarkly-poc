@@ -50,10 +50,18 @@ class App extends Component {
   render() {
     const { myFeature } = this.state;
 
+    // While hitting IP and Darkly APIs
     if (myFeature === "loading") {
-      return <div className="App">Loading....</div>;
+      return (
+        <div className="App">
+          <div className="features">
+            <h1>Loading....</h1>
+          </div>
+        </div>
+      );
     }
 
+    // Once loaded, perform appropriate action
     return (
       <div className="App">
         <div className="features">

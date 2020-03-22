@@ -5,6 +5,7 @@
 .features {
   border: 1px solid black;
   width: 550px;
+  min-height: 200px;
   padding: 25px;
   margin: 25px;
   box-shadow: 10px 10px 41px -3px rgba(0, 0, 0, 0.75);
